@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chrisbernhardt/Development/cag_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/chrisbernhardt/Development/cag_app/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/chrisbernhardt/Development/CAG-App/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

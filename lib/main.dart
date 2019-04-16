@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 
 // Local Imports
-import './live_section.dart';
-import './events_section.dart';
-import './sermons_section.dart';
+import './pages/live_section.dart';
+import './pages/events_section.dart';
+import './pages/sermons_section.dart';
 
 var dir = "MAIN:";
 
