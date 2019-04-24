@@ -1,4 +1,4 @@
-package com.cag.cag_app
+package com.cag.cagapp
 
 import android.os.Bundle
 

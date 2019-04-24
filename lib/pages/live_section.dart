@@ -4,6 +4,10 @@ class LiveSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Text('Live Section');
+    return Column(
+      children: <Widget>[
+        Image.asset('assets/prayer_walk-background.jpg'),
+      ],
+    );
   }
 }
