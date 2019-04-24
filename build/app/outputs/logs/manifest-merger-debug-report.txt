@@ -5,23 +5,29 @@ INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/And
 INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:cloud_firestore] /Users/chrisbernhardt/Development/CAG-App/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /Users/chrisbernhardt/Development/CAG-App/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/915037332cbd811fe1c4585ea6acc79c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/35658c8f51e73170f5dbaeb0a35ea5a3/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/5095abfc8cf5b8b5896549311d450723/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/9746a4160b362ad8335965a5f4518475/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/27393f2a81ede8545b7bc1773c370c6e/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/0fea878cc3d6531dca3c13bb1689cc9c/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0d121ac44111320b77369015093f6c6a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/dc9875bbc2c4335232dc73cb29193753/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/1befa5b3d49d3dfc46cee6d60e8e927c/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/f7aec1b72007d8cf91638d6690993e9e/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/b0d4b3724604017e77a0b13f43f81fa1/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/76063e91e2dd12e2a31b3f87081ab818/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/280d93e011f727f8e0d4e5c6f442b74a/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1938b5171f2a05dbf3bcf6b9a11cc8af/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/aef27067852a684db70653654f95dd04/AndroidManifest.xml:17:1-31:12
@@ -49,6 +55,10 @@ application
 ADDED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/AndroidManifest.xml:9:5-32:19
 MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/915037332cbd811fe1c4585ea6acc79c/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/915037332cbd811fe1c4585ea6acc79c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/35658c8f51e73170f5dbaeb0a35ea5a3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/35658c8f51e73170f5dbaeb0a35ea5a3/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:26:5-32:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:26:5-32:19
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/5095abfc8cf5b8b5896549311d450723/AndroidManifest.xml:28:5-53:19
@@ -59,26 +69,26 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/chrisber
 MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/27393f2a81ede8545b7bc1773c370c6e/AndroidManifest.xml:28:5-38:19
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:28:5-57:19
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/0fea878cc3d6531dca3c13bb1689cc9c/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/0fea878cc3d6531dca3c13bb1689cc9c/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0d121ac44111320b77369015093f6c6a/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0d121ac44111320b77369015093f6c6a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/dc9875bbc2c4335232dc73cb29193753/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/dc9875bbc2c4335232dc73cb29193753/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/76063e91e2dd12e2a31b3f87081ab818/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/76063e91e2dd12e2a31b3f87081ab818/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/280d93e011f727f8e0d4e5c6f442b74a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/280d93e011f727f8e0d4e5c6f442b74a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1938b5171f2a05dbf3bcf6b9a11cc8af/AndroidManifest.xml:25:5-29:19
@@ -131,10 +141,16 @@ uses-sdk
 INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/chrisbernhardt/Development/CAG-App/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/chrisbernhardt/Development/CAG-App/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/chrisbernhardt/Development/CAG-App/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/chrisbernhardt/Development/CAG-App/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/915037332cbd811fe1c4585ea6acc79c/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/915037332cbd811fe1c4585ea6acc79c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/35658c8f51e73170f5dbaeb0a35ea5a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/35658c8f51e73170f5dbaeb0a35ea5a3/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/5095abfc8cf5b8b5896549311d450723/AndroidManifest.xml:20:5-44
@@ -145,26 +161,32 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/chrisber
 MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/27393f2a81ede8545b7bc1773c370c6e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/0fea878cc3d6531dca3c13bb1689cc9c/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/0fea878cc3d6531dca3c13bb1689cc9c/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0d121ac44111320b77369015093f6c6a/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0d121ac44111320b77369015093f6c6a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/d522ff99890a459f53fbcf89933196cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/43016e1fc9cd1cde0b15e8d4304208f4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/39a7b8c33a89662839528446ebb9cc59/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/dc9875bbc2c4335232dc73cb29193753/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/dc9875bbc2c4335232dc73cb29193753/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/1befa5b3d49d3dfc46cee6d60e8e927c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/1befa5b3d49d3dfc46cee6d60e8e927c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/f7aec1b72007d8cf91638d6690993e9e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/f7aec1b72007d8cf91638d6690993e9e/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/b0d4b3724604017e77a0b13f43f81fa1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/b0d4b3724604017e77a0b13f43f81fa1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/76063e91e2dd12e2a31b3f87081ab818/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/76063e91e2dd12e2a31b3f87081ab818/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/e8719f88990b83eec617e991aee9025f/AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/280d93e011f727f8e0d4e5c6f442b74a/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/280d93e011f727f8e0d4e5c6f442b74a/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1938b5171f2a05dbf3bcf6b9a11cc8af/AndroidManifest.xml:21:5-23:60
@@ -189,6 +211,8 @@ INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/debug/An
 		INJECTED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/5095abfc8cf5b8b5896549311d450723/AndroidManifest.xml:23:5-67
@@ -200,15 +224,35 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gra
 	android:name
 		ADDED from /Users/chrisbernhardt/Development/CAG-App/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:23:5-79
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/5095abfc8cf5b8b5896549311d450723/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/5095abfc8cf5b8b5896549311d450723/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/27393f2a81ede8545b7bc1773c370c6e/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/27393f2a81ede8545b7bc1773c370c6e/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/b0d4b3724604017e77a0b13f43f81fa1/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/b0d4b3724604017e77a0b13f43f81fa1/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:23:22-76
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:13:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:17:18-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/0eb41fe396ae4374d676630f53e80d8c/AndroidManifest.xml:19:17-111
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/5095abfc8cf5b8b5896549311d450723/AndroidManifest.xml:25:5-68
@@ -219,14 +263,6 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gra
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:24:5-68
 	android:name
 		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:24:22-65
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:27:9-31:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:29:9-35:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:27:18-89
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/6b3bd9e3569c779986a5252a090b4958/AndroidManifest.xml:28:13-30:85
 	android:value
@@ -321,16 +357,6 @@ action#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:54:17-80
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/fe42dd821c35143af998f6266b751885/AndroidManifest.xml:54:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:10:9-14:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:12:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:13:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:14:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/a325f5312e29cecceaec7a75b76f8282/AndroidManifest.xml:11:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -339,6 +365,16 @@ ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernha
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/cbd1b8ccdb078f950ae896a8a3442d07/AndroidManifest.xml:13:13-77
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/dc9875bbc2c4335232dc73cb29193753/AndroidManifest.xml:23:9-25:69
 	android:value

@@ -28,16 +28,8 @@
         "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/280d93e011f727f8e0d4e5c6f442b74a/res/layout/notification_media_action.xml"
     },
     {
-        "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3b487f9a5ca67d947608c13cefad0b44/res/layout/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
         "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/280d93e011f727f8e0d4e5c6f442b74a/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3b487f9a5ca67d947608c13cefad0b44/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
@@ -106,10 +98,6 @@
     {
         "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6a2b545e0c38d4265595b7735e09eac1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3b487f9a5ca67d947608c13cefad0b44/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -266,10 +254,6 @@
     {
         "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3b487f9a5ca67d947608c13cefad0b44/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/Users/chrisbernhardt/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3b487f9a5ca67d947608c13cefad0b44/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
