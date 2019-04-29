@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class EventsSection extends StatelessWidget {
   @override
@@ -6,49 +7,78 @@ class EventsSection extends StatelessWidget {
     // TODO: implement build
     return ListView(
       children: <Widget>[
-        eventCard('Cafe', 'Something Good\nSomething else good\nNothing more', 'assets/prayer_walk-background.jpg'),
+        eventCard(
+            'Cafe Menu',
+            'Something Good\nSomething else good\nNothing more\nAnothering\nAWmfmskefmes',
+            'assets/prayer_walk-background.jpg',
+            true),
+        _buildBody(context)
       ],
     );
   }
 
+  Widget _buildBody(BuildContext context) {
+    return StreamBuilder(
+      stream: Firestore.instance.collection('cafe-menu').snapshots(),
+      builder: (context, snapshot) {
+        if (!snapshot.hasData) return LinearProgressIndicator();
+        return snapshot.data.documents.map((document) {
+          return ListView(children: snapshot.data.documents.map((document) {
+            
+          }),);
+        });
+      },
+    );
+  }
+
   /* Generates a card that has the event formating */
-  Widget eventCard(String title, String description, String imagePath) {
+  Widget eventCard(
+      String title, String description, String imagePath, bool lightText) {
+    var textColor = Colors.black;
+
+    if (lightText) {
+      textColor = Colors.white;
+    }
+
     return Card(
       // Style
-      semanticContainer: true,
-      clipBehavior: Clip.antiAliasWithSaveLayer,
+      clipBehavior: Clip.antiAlias,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
-      elevation: 5,
+      elevation: 10,
       margin: EdgeInsets.all(10),
 
       // Elements
-      child: Stack(
-        children: <Widget>[
-          Image.asset(imagePath),
-          SizedBox(
-            width: double.infinity,
-            child: Container(
-              padding: EdgeInsets.all(20.0),
-              // color: Colors.green,
+      child: Container(
+        height: 200.0,
+        child: Stack(
+          children: <Widget>[
+            Image.asset(
+              'assets/cafe.jpg',
+              fit: BoxFit.cover,
+              width: double.infinity,
+            ),
+            Container(
+              width: double.infinity,
+              padding: EdgeInsets.all(10.0),
               child: Column(
-                // Prevents the column from expanding to fit the height
-                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  // Title Element
+                  Container(
+                      padding: EdgeInsets.only(bottom: 10.0),
+                      child: Text(title,
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20.0,
+                              color: textColor))),
                   Text(
-                    title,
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    description,
+                    style: TextStyle(color: textColor),
                   ),
-                  // Description Element
-                  Text(description),
                 ],
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

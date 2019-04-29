@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 24 15:47:28 EDT 2019
+#Mon Apr 29 12:04:54 EDT 2019
 17.baseType=DIRECTORY
 4.path=classes.dex
 8.set=ASSET
@@ -36,7 +36,7 @@ count=20
 14.baseType=DIRECTORY
 17.base=/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/transforms/dexMerger/debug/1
 10.base=/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
-7.path=flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+7.path=flutter_assets/assets/cafe.jpg
 16.baseType=DIRECTORY
 14.set=DEX
 2.base=/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/transforms/dexMerger/debug/5
@@ -52,7 +52,7 @@ count=20
 18.base=/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/transforms/dexMerger/debug/0
 5.baseType=DIRECTORY
 11.base=/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
-8.path=flutter_assets/assets/prayer_walk-background.jpg
+8.path=flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 17.path=classes.dex
 7.baseType=DIRECTORY
 3.base=/Users/chrisbernhardt/Development/CAG-App/build/app/intermediates/transforms/dexMerger/debug/4
