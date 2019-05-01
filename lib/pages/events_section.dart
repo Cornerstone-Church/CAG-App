@@ -1,85 +1,57 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cag_app/widgets/cafe_card.dart';
 
-class EventsSection extends StatelessWidget {
+class EventsSection extends StatefulWidget {
+  @override
+  State createState() {
+    return _EventsSectionState();
+  }
+}
+
+class _EventsSectionState extends State<EventsSection> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+
     return ListView(
       children: <Widget>[
-        eventCard(
-            'Cafe Menu',
-            'Something Good\nSomething else good\nNothing more\nAnothering\nAWmfmskefmes',
-            'assets/prayer_walk-background.jpg',
-            true),
-        _buildBody(context)
+        CafeCard('wednesday'),
+        CafeCard('saturday'),
       ],
     );
   }
 
-  Widget _buildBody(BuildContext context) {
-    return StreamBuilder(
-      stream: Firestore.instance.collection('cafe-menu').snapshots(),
-      builder: (context, snapshot) {
-        if (!snapshot.hasData) return LinearProgressIndicator();
-        return snapshot.data.documents.map((document) {
-          return ListView(children: snapshot.data.documents.map((document) {
-            
-          }),);
-        });
-      },
-    );
-  }
-
-  /* Generates a card that has the event formating */
-  Widget eventCard(
-      String title, String description, String imagePath, bool lightText) {
-    var textColor = Colors.black;
-
-    if (lightText) {
-      textColor = Colors.white;
-    }
-
-    return Card(
-      // Style
-      clipBehavior: Clip.antiAlias,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
-      elevation: 10,
-      margin: EdgeInsets.all(10),
-
-      // Elements
-      child: Container(
-        height: 200.0,
-        child: Stack(
-          children: <Widget>[
-            Image.asset(
-              'assets/cafe.jpg',
-              fit: BoxFit.cover,
-              width: double.infinity,
-            ),
-            Container(
-              width: double.infinity,
-              padding: EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Container(
-                      padding: EdgeInsets.only(bottom: 10.0),
-                      child: Text(title,
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
-                              color: textColor))),
-                  Text(
-                    description,
-                    style: TextStyle(color: textColor),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+//  Widget _buildBody(BuildContext context) {
+////    return StreamBuilder(
+////      stream: Firestore.instance.collection('cafe-menu').snapshots(),
+////      builder: (context, snapshot) {
+////        if (snapshot.hasError) {
+////          return Text('There is an error: ${snapshot.error}');
+////        }
+////        switch (snapshot.connectionState) {
+////          case ConnectionState.done:
+////            return Text("done");
+////          case ConnectionState.waiting:
+////            return Text("waiting");
+////          case ConnectionState.none:
+////            return Text("none");
+////          default:
+////            {
+////              Widget output = Text("Not Working");
+////              Firestore.instance
+////                  .collection('cafe-menu')
+////                  .document('wednesday')
+////                  .get()
+////                  .then((DocumentSnapshot ds) {
+////                print(ds.data);
+////
+////                output = Text("Working!");
+////              });
+////
+////              return output;
+////            }
+////        }
+////      },
+////    );
+//  }
 }
