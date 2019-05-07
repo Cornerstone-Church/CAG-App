@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-class SermonsSection extends StatelessWidget {
+class PrayerSection extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
-    return Text("Something");
+    return Text('Prayer Section');
   }
 }

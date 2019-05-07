@@ -2,9 +2,10 @@
 import 'package:flutter/material.dart';
 
 // Local Imports
-import './pages/live_section.dart';
-import './pages/events_section.dart';
-import './pages/sermons_section.dart';
+import 'pages/live_section.dart';
+import 'pages/events_section.dart';
+import 'pages/sermons_section.dart';
+import 'pages/pray_section.dart';
 
 var dir = "MAIN:";
 
@@ -40,10 +41,12 @@ class HomePageState extends State<HomePage> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.live_tv), title: Text('Live')),
           BottomNavigationBarItem(icon: Icon(Icons.video_library), title: Text('Sermons')),
-          BottomNavigationBarItem(icon: Icon(Icons.event), title: Text('Events'))
+          BottomNavigationBarItem(icon: Icon(Icons.event), title: Text('Events')),
+          BottomNavigationBarItem(icon: Icon(Icons.book), title: Text('Pray')),
         ],
         currentIndex: _menuIndex,
         onTap: _onTapMenu,
+        type: BottomNavigationBarType.fixed,
       ),
     );
   }
@@ -58,7 +61,7 @@ class HomePageState extends State<HomePage> {
 
 
   /* 
-    Will return the selected view bassed on the index passed to it.
+    Will return the selected view based on the index passed to it.
     Valid index is 0-2.
    */
   Widget loadPage(index) {
@@ -69,6 +72,8 @@ class HomePageState extends State<HomePage> {
         return SermonsSection();
       case 2:
         return EventsSection();
+      case 3:
+        return PrayerSection();
       default:
         print("$dir Unknown section selected.");
         // Returns a blank container when the section is invalid
