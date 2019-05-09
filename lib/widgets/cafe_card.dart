@@ -55,8 +55,7 @@ class CafeCard extends StatelessWidget {
     return Card(
       // Style
       clipBehavior: Clip.antiAlias,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
-      elevation: 10,
+      elevation: 5.0,
       margin: EdgeInsets.all(10),
 
       // Elements

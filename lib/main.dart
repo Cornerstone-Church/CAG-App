@@ -2,10 +2,11 @@
 import 'package:flutter/material.dart';
 
 // Local Imports
-import 'pages/live_section.dart';
-import 'pages/events_section.dart';
-import 'pages/sermons_section.dart';
-import 'pages/pray_section.dart';
+import 'sections/live_section.dart';
+import 'sections/events_section.dart';
+import 'sections/sermons_section.dart';
+import 'sections/pray_section.dart';
+import 'pages/prayer_add_page.dart';
 
 var dir = "MAIN:";
 
@@ -17,6 +18,9 @@ class CornerstoneApp extends StatelessWidget {
     return MaterialApp(
       title: 'CAG',
       home: HomePage(),
+      routes: {
+        '/addprayer': (context) => AddPrayerRequestPage(),
+      },
     );
   }
 }
