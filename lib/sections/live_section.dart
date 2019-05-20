@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
+final FirebaseAuth _auth = FirebaseAuth.instance;
 
 class LiveSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Text('Live Section');
   }
 }

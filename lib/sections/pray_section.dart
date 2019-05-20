@@ -1,97 +1,77 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-// Local imports
-import 'package:cag_app/widgets/prayer_card.dart';
+import 'package:cag_app/pages/authentication_page.dart';
+import 'package:cag_app/pages/pray_page.dart';
 
-class PrayerSection extends StatelessWidget {
+final FirebaseAuth _auth = FirebaseAuth.instance;
+bool _signedIn = false;
+
+class PrayerSection extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return _PrayerSectionState();
+  }
+}
+
+class _PrayerSectionState extends State<PrayerSection> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Prayer Requests',
-        ),
-        actions: <Widget>[
-          // Add Prayer Request Button
-          IconButton(
-            icon: Icon(Icons.add),
-            onPressed: () {
-              Navigator.pushNamed(context, '/addprayer');
-            },
-          )
-        ],
-      ),
-      body: Column(
-        children: <Widget>[
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              actionButton('Answered', 'null', Icons.check),
-              actionButton('My Requests', 'null', Icons.assignment),
-            ],
-          ),
-          Expanded(
-            child: prayerCards(),
-          )
-        ],
-      ),
-    );
-  }
+    // TODO: Create signout section to remove this
+    // _auth.signOut();
 
-  Widget prayerCards() {
-    return StreamBuilder<QuerySnapshot>(
-      stream: Firestore.instance
-          .collection('app/prayer-requests/active')
-          .snapshots(),
-      builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
-        if (snapshot.hasError) return Text("Error: ${snapshot.error}");
+    // Check if user is logged in or not
+    return StreamBuilder(
+      stream: _auth.currentUser().asStream(),
+      builder: (context, snapshot) {
         switch (snapshot.connectionState) {
           case ConnectionState.waiting:
-            return Center(
-              child: SizedBox(
-                width: 40.0,
-                height: 40.0,
-                child: CircularProgressIndicator(),
-              ),
-            );
+            return CircularProgressIndicator();
           default:
-            return ListView(
-              children:
-                  snapshot.data.documents.map((DocumentSnapshot document) {
-                    print(document.exists);
-                return PrayerCard(
-                  author: document['author'],
-                  title: document['title'].toString().toUpperCase(),
-                  dateInSeconds: document['date'].seconds,
-                  description: document['description'],
-                );
-              }).toList(),
-            );
+            // If isSignedIn is false then load authentication page, Otherwise load the prayer section
+            if (snapshot.data == null) {
+              _signedIn = false;
+            } else {
+              _signedIn = true;
+            }
+            return _signedIn ? PrayPage() : _signIn(context);
         }
       },
     );
   }
 
-  Widget actionButton(String title, String pageRoute, IconData iconImage) {
-    return Container(
-      margin: EdgeInsets.all(8.0),
-      child: SizedBox(
-        child: RaisedButton(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Icon(iconImage),
-              Padding(
-                padding: const EdgeInsets.only(left: 10.0),
-                child: Text(title),
-              ),
-            ],
+  Widget _signIn(context) {
+    return Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          Icon(
+            Icons.lock,
+            size: 100.0,
           ),
-          onPressed: () {
-            // TODO: Implement Button
-          },
-        ),
+          SizedBox(
+            height: 20.0,
+          ),
+          Text(
+            'This section requires you to log in to your \nCornerstone ONE account.',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontStyle: FontStyle.italic),
+          ),
+          SizedBox(
+            height: 20.0,
+          ),
+          FlatButton(
+            child: Text('Login'),
+            onPressed: () async {
+              // Navigator.pushNamed(context, '/login');
+              var result = await Navigator.pushNamed(context, '/login');
+
+              setState(() {
+                _signedIn = result;
+              });
+            },
+          )
+        ],
       ),
     );
   }

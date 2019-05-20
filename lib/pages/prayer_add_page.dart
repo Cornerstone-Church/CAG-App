@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+
+
 class AddPrayerRequestPage extends StatefulWidget {
   @override
   State<AddPrayerRequestPage> createState() {
@@ -56,7 +58,8 @@ class _AddPrayerRequestState extends State<AddPrayerRequestPage> {
                           'title': _title,
                           'description': _description,
                           'date': DateTime.now(),
-                          'author': "UserID",
+                          'author': "User Name",
+                          'userId': "UserID",
                           'answered': false,
                         }).then((error) {
                           Navigator.pop(context);

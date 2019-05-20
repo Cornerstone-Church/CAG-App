@@ -7,12 +7,14 @@ import 'sections/events_section.dart';
 import 'sections/sermons_section.dart';
 import 'sections/pray_section.dart';
 import 'pages/prayer_add_page.dart';
+import 'pages/authentication_page.dart';
 
 var dir = "MAIN:";
 
 void main() => runApp(CornerstoneApp());
 
 class CornerstoneApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,6 +22,7 @@ class CornerstoneApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         '/addprayer': (context) => AddPrayerRequestPage(),
+        '/login': (context) => AuthenticationPage(),
       },
     );
   }
