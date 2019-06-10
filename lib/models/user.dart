@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/services.dart';
+import 'package:scoped_model/scoped_model.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
 
-class User {
+class UserModel extends Model {
   FirebaseUser _user;
   String _uid;
 

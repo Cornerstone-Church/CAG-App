@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-
-import 'package:cag_app/widgets/prayer_card.dart';
+import 'package:cag_app/widgets/prayer_card_list.dart';
 
 class PrayPage extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,53 +25,19 @@ class PrayPage extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              actionButton('Answered', 'null', Icons.check),
-              actionButton('My Requests', 'null', Icons.assignment),
+              _actionButton(title: 'Answered', context: context, pageRoute: '/answeredPrayers', iconImage: Icons.check),
+              _actionButton(title: 'My Requests', context: context, pageRoute: '/requestEditor', iconImage: Icons.list),
             ],
           ),
           Expanded(
-            child: prayerCards(),
+            child: PrayerCardList(),
           )
         ],
       ),
     );
   }
 
-  Widget prayerCards() {
-    return StreamBuilder<QuerySnapshot>(
-      stream: Firestore.instance
-          .collection('app/prayer-requests/active')
-          .snapshots(),
-      builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
-        if (snapshot.hasError) return Text("Error: ${snapshot.error}");
-        switch (snapshot.connectionState) {
-          case ConnectionState.waiting:
-            return Center(
-              child: SizedBox(
-                width: 40.0,
-                height: 40.0,
-                child: CircularProgressIndicator(),
-              ),
-            );
-          default:
-            return ListView(
-              children:
-                  snapshot.data.documents.map((DocumentSnapshot document) {
-                print(document.exists);
-                return PrayerCard(
-                  author: document['author'],
-                  title: document['title'].toString().toUpperCase(),
-                  dateInSeconds: document['date'].seconds,
-                  description: document['description'],
-                );
-              }).toList(),
-            );
-        }
-      },
-    );
-  }
-
-  Widget actionButton(String title, String pageRoute, IconData iconImage) {
+  Widget _actionButton({@required String title, String pageRoute, IconData iconImage, @required BuildContext context}) {
     return Container(
       margin: EdgeInsets.all(8.0),
       child: SizedBox(
@@ -88,7 +53,9 @@ class PrayPage extends StatelessWidget {
             ],
           ),
           onPressed: () {
-            // TODO: Implement Button
+            if (pageRoute != null) {
+              Navigator.pushNamed(context, pageRoute);
+            }
           },
         ),
       ),

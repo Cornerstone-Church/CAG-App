@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-
-
+import 'package:scoped_model/scoped_model.dart';
+import 'package:cag_app/models/user.dart';
 
 class AddPrayerRequestPage extends StatefulWidget {
   @override
@@ -45,28 +45,32 @@ class _AddPrayerRequestState extends State<AddPrayerRequestPage> {
                     _description = value.toString();
                   }),
               Container(
-                  margin: EdgeInsets.all(8.0),
-                  child: IconButton(
-                    icon: Icon(Icons.check),
-                    iconSize: 50.0,
-                    onPressed: () {
-                      if (_prayerRequestKey.currentState.validate()) {
-                        Firestore.instance
-                            .collection('app/prayer-requests/active')
-                            .document()
-                            .setData({
-                          'title': _title,
-                          'description': _description,
-                          'date': DateTime.now(),
-                          'author': "User Name",
-                          'userId': "UserID",
-                          'answered': false,
-                        }).then((error) {
-                          Navigator.pop(context);
-                        });
-                      }
-                    },
-                  )),
+                margin: EdgeInsets.all(8.0),
+                child: ScopedModelDescendant<UserModel>(
+                  builder: (context, child, model) {
+                    return IconButton(
+                      icon: Icon(Icons.check),
+                      iconSize: 50.0,
+                      onPressed: () {
+                        if (_prayerRequestKey.currentState.validate()) {
+                          Firestore.instance
+                              .collection('app/prayer-requests/active')
+                              .document()
+                              .setData({
+                            'title': _title,
+                            'description': _description,
+                            'date': DateTime.now(),
+                            'userId': model.uid,
+                            'answered': false,
+                          }).then((error) {
+                            Navigator.pop(context);
+                          });
+                        }
+                      },
+                    );
+                  },
+                ),
+              ),
             ],
           ),
         ),

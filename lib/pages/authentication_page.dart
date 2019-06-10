@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
-import 'package:cag_app/modules/user.dart';
+import 'package:scoped_model/scoped_model.dart';
 
-final FirebaseAuth _auth = FirebaseAuth.instance;
+import 'package:cag_app/models/user.dart';
+
 final GlobalKey<FormState> _key = GlobalKey<FormState>();
 Widget _loginWidget = Text('Login');
 Widget _errorMessage = SizedBox();
@@ -16,8 +16,6 @@ class AuthenticationPage extends StatefulWidget {
 }
 
 class _AuthenticationPageState extends State<AuthenticationPage> {
-  final user = new User();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -84,65 +82,44 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
             SizedBox(
               child: _errorMessage,
             ),
-            FlatButton(
-              child: _loginWidget,
-              onPressed: () {
-                if (_key.currentState.validate()) {
-                  setState(() {
-                    // Change to loading progress
-                    _loginWidget = CircularProgressIndicator();
+            ScopedModelDescendant<UserModel>(
+              builder: (context, child, model) {
+                return FlatButton(
+                  child: _loginWidget,
+                  onPressed: () {
+                    if (_key.currentState.validate()) {
+                      setState(() {
+                        // Change to loading progress
+                        _loginWidget = CircularProgressIndicator();
 
-                    // Error Message
-                    _errorMessage = StreamBuilder(
-                      stream: Stream.fromFuture(
-                        user.signIn(_email, _password),
-                      ),
-                      builder: (context, snapshot) {
-                        switch (snapshot.connectionState) {
-                          case ConnectionState.waiting:
-                            {
-                              return Text('Logging in...');
+                        // Error Message
+                        _errorMessage = StreamBuilder(
+                          stream: Stream.fromFuture(
+                            model.signIn(_email, _password),
+                          ),
+                          builder: (context, snapshot) {
+                            switch (snapshot.connectionState) {
+                              case ConnectionState.waiting:
+                                {
+                                  return Text('Logging in...');
+                                }
+                              default:
+                                {
+                                  Navigator.pop(context);
+                                  return Text('Logged In');
+                                }
                             }
-                          default:
-                            {
-                              Navigator.pop(context);
-                              return Text('Logged In');
-                            }
-                        }
-                      },
-                    );
-                  });
-                }
+                          },
+                        );
+                      });
+                    }
+                  },
+                );
               },
             ),
           ],
         ),
       ),
-    );
-  }
-
-  Widget _signIn(String email, String password) {
-    return StreamBuilder(
-      stream: Stream.fromFuture(user.signIn(email, password)),
-      builder: (context, snapshot) {
-        switch (snapshot.connectionState) {
-          case ConnectionState.waiting:
-            {
-              print('Signing In');
-              return SizedBox();
-            }
-          default:
-            {
-              if (!snapshot.data) {
-                // Login failed
-                return Text('Email or password is wrong');
-              } else {
-                // Login success
-                return Text('Logged In with id of: ${user.uid}');
-              }
-            }
-        }
-      },
     );
   }
 }
