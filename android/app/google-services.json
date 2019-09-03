@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "829120399131",
+    "firebase_url": "https://cag-zalem-32e6e.firebaseio.com",
+    "project_id": "cag-zalem-32e6e",
+    "storage_bucket": "cag-zalem-32e6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829120399131:android:64c473cb41276962",
+        "android_client_info": {
+          "package_name": "com.cag.cagapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829120399131-o8166kdeq20rkuds0dv0jeltn6mffpl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHYm3m08fgmGv6L4k1PJlVjvZR9bWiZhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829120399131-o8166kdeq20rkuds0dv0jeltn6mffpl6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "829120399131-5ekg21f8sgqbb3bai7on22psch5st4rh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.cag.cagapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
