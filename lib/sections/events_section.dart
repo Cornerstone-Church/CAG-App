@@ -16,7 +16,6 @@ class _EventsSectionState extends State<EventsSection> {
     return ListView(
       children: <Widget>[
         CafeCard('wednesday'),
-        CafeCard('saturday'),
       ],
     );
   }
