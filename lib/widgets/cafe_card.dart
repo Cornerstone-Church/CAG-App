@@ -19,7 +19,10 @@ class CafeCard extends StatelessWidget {
             return loading();
           default:
 //            return buildCard('Cafe Menu', snapshot.data['items'], null, false);
-            return buildCard(title: "Cafe Menu", items: snapshot.data['items']);
+            return buildCard(
+                title: "Cafe Menu",
+                date: snapshot.data['date'],
+                items: snapshot.data['items']);
         }
       },
     );
@@ -39,8 +42,12 @@ class CafeCard extends StatelessWidget {
   }
 
   /// A widget that builds the cafe menu card.
-  Widget buildCard({@required
-      String title, @required List<dynamic> items, String imagePath, bool lightText = false}) {
+  Widget buildCard(
+      {@required String title,
+      @required String date,
+      @required List<dynamic> items,
+      String imagePath,
+      bool lightText = false}) {
     var textColor = Colors.black;
     String itemsString = "";
 
@@ -75,13 +82,20 @@ class CafeCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Container(
-                      padding: EdgeInsets.only(bottom: 10.0),
+                      padding: EdgeInsets.only(bottom: 3.0),
                       child: Text(
                         title,
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 20.0,
                             color: textColor),
+                        textAlign: TextAlign.center,
+                      )),
+                  Container(
+                      padding: EdgeInsets.only(bottom: 10.0),
+                      child: Text(
+                        date,
+                        style: TextStyle(fontSize: 13.0, color: textColor),
                         textAlign: TextAlign.center,
                       )),
                   Text(
