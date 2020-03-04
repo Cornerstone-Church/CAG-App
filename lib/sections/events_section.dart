@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cag_app/widgets/cafe_card.dart';
-import 'package:cag_app/widgets/event_card.dart';
+import 'package:cag_app/widgets/events_builder.dart';
 
 class EventsSection extends StatefulWidget {
   @override
@@ -16,10 +16,9 @@ class _EventsSectionState extends State<EventsSection> {
 
     return ListView(
       children: <Widget>[
+        // TODO: Fix Event/Cafe cards background image
         CafeCard('wednesday'),
-        // Example Event Card
-        EventCard('Water Baptism February', 'February 8, 2020',
-            'assets/WaterBaptism.jpg'),
+        EventsBuilder('events'),
       ],
     );
   }
